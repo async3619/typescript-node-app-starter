@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": false,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
+        "strict": true,
+        "paths": {
+            "@root/*": ["./src/*"],
+            "@file/*": ["./src/file/*"],
+            "@user/*": ["./src/user/*"],
+            "@auth/*": ["./src/auth/*"],
+            "@product/*": ["./src/product/*"],
+            "@config/*": ["./src/config/*"],
+            "@qna/*": ["./src/qna/*"],
+            "@article/*": ["./src/article/*"],
+            "@board/*": ["./src/board/*"],
+            "@point/*": ["./src/point/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@account-log/*": ["./src/account-log/*"],
+            "@level/*": ["./src/level/*"],
+            "@notice/*": ["./src/notice/*"],
+            "@notification/*": ["./src/notification/*"]
+        }
+    }
+}
